@@ -3,9 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Intro CSS</title>
+  <link rel="stylesheet" href="./css/maindexcssintro.css">
 </head>
 <body>
+  <h1>Intro CSS</h1>
   
+  <h3>Basics</h3>
+<h4>Inline Styles</h4>
+
+<i>You have in-line styles by addding a style attribute to each element to apply to it.</i>
+<br>
+<br>
+<br>
+<p>Ex. I want the following text to red: <span style="color:red;">See I am red with inline styles</span></p>
+
+<h4>External Stylesheet</h4>
+
+<i>An external style sheet is connected to the HTML with a link tag in the head element</i>
+<br>
+<br>
+<br>
+<p>Ex. I want the following text to red: <label>See I am red with inline styles</label></p>
+ 
+
+  <h3>Core CSS Concepts</h3>
+
+    <span>
+      <span>Selectors</span>
+      <h3>ID Selector</h3>
+
+      <p>Ex. I want the following text to red: <span id="changeTextToBlue">See I am blue</span></p>
+      </span>
+    </span>
+  <h3>Class Selector</h3>
+
+  <p class="changeToGreen">I</p>
+  <p class="changeToGreen">Want</p>
+  <p class="changeToGreen">All</p>
+  <p class="changeToGreen">Of These p Tags to Have the Same Style</p>
+
+<h3>Combining Selectors</h3>
+
+<h4>element + element</h4>
+
+<div>
+  This is div that contains a span that I want to edit
+  <span>I am the span</span>
+</div>
+
+<h4>element + id</h4>
+
+<div>
+this div has antoher div with a specific 
+id I want to edit
+<div id="editMe"> i am div with id</div>
+</div>
+
+<h4>class id</h4>
+
+<div class="someClass"></div>
+someClass
+<div id="someClass" class="someOtherClass">I am someID with someOtherClass</div>
+</div>
 </body>
 </html>

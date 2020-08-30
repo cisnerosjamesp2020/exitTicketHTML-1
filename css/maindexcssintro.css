@@ -1,0 +1,22 @@
+/*
+comments: CMD + / or CTRL + /
+How this works:
+
+CSS Syntax
+
+selector (element/id/class) {
+    property: value;
+}
+*/
+
+label {
+    color: red;
+}
+
+body {
+    margin-bottom: 5000px;
+}
+
+div span {
+    color: peru
+}
