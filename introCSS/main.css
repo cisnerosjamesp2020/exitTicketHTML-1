@@ -1,0 +1,35 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+
+}
+
+#white {
+    brackground-color: white;
+    position: relative;
+    top: 10Px;
+    left: 10px;
+}
+
+#moveme {
+    background-color: lightgreen;
+    position: absloute;
+    border: 1px dashed;
+}
+
+#icon {
+    width: 10px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+
+#wrapper {
+    position: relative;
+}
+
+#wrapper input {
+        position: absolute;
+}
