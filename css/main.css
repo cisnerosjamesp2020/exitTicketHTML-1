@@ -1,0 +1,9 @@
+p {
+    text-align: center;
+}
+
+#nestedDiv {
+    display: flex;
+    justify-content: center;
+    
+}
